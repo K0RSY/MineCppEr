@@ -12,6 +12,7 @@ Here are all MineCppEr features:
 - Opening cell unsing `e` on a black cell
 - Autoflagging using `e` on a number cell surrounded by all needed black cells
 - Autoopening using `e` on a number cell surrounded by all needed flags
+- Quit unsing `x`
 
 ## Playing
 You can compile source code manually using c++ compiler
