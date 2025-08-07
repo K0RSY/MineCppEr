@@ -6,7 +6,7 @@ MineCppEr is a lightweight onefile minesweeper written on c++
 
 ## Features
 Here are all MineCppEr features:
-- Editing playing field size and mines count using inputs in the start of the game
+- Editing field size and mines count using inputs in the start of the game
 - Moving cursor using `wasd`
 - Placing flag and question mark using `q`
 - Opening cell unsing `e` on a black cell
@@ -15,4 +15,4 @@ Here are all MineCppEr features:
 - Quit unsing `x`
 
 ## Playing
-You can compile source code manually using c++ compiler
+You can compile source code manually using c++ compiler and than run it
