@@ -308,7 +308,7 @@ int main() {
 	int width;
 	int mines_count;
 	
-	cout << "Введите размеры поля (ширина высота): ";
+	cout << "Type field size (width height): ";
 	cin >> width >> height;
 	print_void();
 	
@@ -317,7 +317,7 @@ int main() {
 	int pointer = 0;
 
 	do {
-		cout << "Введите количество мин: ";
+		cout << "Type mines count: ";
 		cin >> mines_count;
 		print_void();
 	} while (mines_count >= height*width-9);
@@ -331,7 +331,7 @@ int main() {
 	
 	do {
 		print_cells(*visual_cells, height, width, pointer);
-		cout << "Нажимайте wasd - чтобы двигать курсор, e - чтобы отркыть клетку, q - чтобы поставить или убрать флажок, x - чтобы выйти: ";
+		cout << "Press wasd - to move cursor, e - to open cell, q - to place flag, x - to exit: ";
 		inp = get_inp();
 		check_inp(inp, run, *cells, *visual_cells, height, width, pointer, first_move, win);
 		check_win(*cells, *visual_cells, height, width, mines_count, win, run);
@@ -341,11 +341,11 @@ int main() {
 
 	open_mines(*cells, *visual_cells, height, width);
 	if (win == 1) {
-		cout << "Вы победили!!!!" << endl;
+		cout << "You won!!!!" << endl;
 	} else if (win == 2) {
-		cout << "Вы вышли. Вот где были мины" << endl;
+		cout << "You quit. Here are mines placement" << endl;
 	} else {
-		cout << "Вы проиграли((((" << endl;
+		cout << "You lost((((" << endl;
 	}
 	
 	return 0;
