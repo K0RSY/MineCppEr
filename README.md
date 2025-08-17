@@ -9,8 +9,8 @@ Here are all MineCppEr features:
 - Editing field size and mines count using inputs in the start of the game
 - Moving cursor using `wasd`
 - Placing flag and question mark using `q`
-- Opening cell unsing `e` on a black cell
-- Autoflagging using `e` on a number cell surrounded by all needed black cells
+- Opening cell using `e` on a blank cell
+- Autoflagging using `e` on a number cell surrounded by all needed blank cells
 - Autoopening using `e` on a number cell surrounded by all needed flags
 - Quit unsing `x`
 
