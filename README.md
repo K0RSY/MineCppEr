@@ -15,4 +15,4 @@ Here are all MineCppEr features:
 - Quit using `x`
 
 ## Playing
-You can compile source code manually using c++ compiler and than run it
+You can compile source code manually using c++ compiler and then run it
