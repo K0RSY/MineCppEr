@@ -15,4 +15,6 @@ Here are all MineCppEr features:
 - Quit using `x`
 
 ## Playing
-You can compile source code manually using c++ compiler and then run it
+On linux you can run `MineCppErLinux` file
+
+On windows and mac you can compile source code manually using c++ compiler and then run it
