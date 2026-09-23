@@ -17,4 +17,6 @@ Here are all MineCppEr features:
 ## Playing
 On linux you can run `MineCppErLinux` file
 
-On windows and mac you can compile source code manually using c++ compiler and then run it
+On windows you can run `MineCppErWindows.exe` file
+
+On mac this bullshit code doesn't work (Probably)
